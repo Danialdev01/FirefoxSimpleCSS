@@ -1,0 +1,33 @@
+// @ Variables
+@import "../Default/_setcolor";
+
+//@, Defalt color
+$primary-clr:#000080;
+$second-clr:hsl(192, 70%, 51%);
+
+//@ Section 
+$body-clr:$white;
+$defalt-font:'Public Sans', sans-serif;
+
+//@, Text 
+$h1:$black;
+$h2:$black;
+$h3:$black;
+$h4:$black;
+$h5:$black;
+$p: $black;
+
+//@ Button 
+$button: $cyan;
+$buttton-hover:$cyan;
+
+//@ Links
+$link: $white;
+$link-hover: $white; 
+
+//?, saiz font
+$font-large:2.5rem;
+$font-medlarge:2rem;
+$font-med:1.125rem; //^ desktop links
+$font-sm:0.975rem; //^ benda biasa
+$links-size:700;

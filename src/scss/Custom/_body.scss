@@ -1,0 +1,123 @@
+body{
+    display: flex;
+}
+@media screen and (min-width:880px){
+    section{
+        display: flex;
+    }
+}
+
+//@ Header
+h1{
+    font-size: 3rem;
+}
+.tajukbesar{
+    font-size: 3.5rem;
+    margin-top: 100px;
+}
+@media screen and (min-width:880px){
+    .tajukbesar{
+        position: fixed;
+        // margin-left: 20px;
+        left: -18vw;
+        right:0;
+    }
+}
+
+//@ Navbar
+.navpage ul li{
+    list-style: circle;
+}
+.navpage ul li a {
+    color: black;
+}
+.nav-side{
+    position: fixed;
+    left: 85vw;
+    right: 0;
+    height: 100vh;
+    background-color: $gray-900;
+}
+.nav-item{
+    padding-top: 60px;
+    font-size: 1.3rem;
+}
+.app-button{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+@media  screen and (max-width:880px) {
+    .nav-side{
+        display: none;
+    }
+}
+
+//@ fav app sec
+#fav-app{
+    display: flex;
+    margin-left: 330px;
+    margin-top: 390px;
+}
+.app-container{
+    margin-left: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.app-button img{
+    max-width: 30px;
+}
+@media screen and (max-width:1000px){
+    #fav-app{
+        display: none;
+    }
+}
+
+//@ Search bar
+form{
+    // background-color: blue;
+    width: 100%;
+    // padding-left: 10px;
+    // padding-right: 40px;
+}
+#search{
+    width: 600px;
+    height: 45px;
+    padding-left: 20px;
+    border-radius: 5px;
+    background-color: $white;
+    border: none;
+}
+@media screen and (max-width:400px) {
+    #search{
+        width: 300px;
+    }
+    h1{
+        text-align: left;
+        padding-left: 40px;
+    }
+}
+@media screen and (min-width:880px){
+    #search{
+        margin-top: 280px;
+        position: fixed;
+        // margin-left: 20px;
+        left: 21vw;
+        right:0;
+    }
+}
+
+//@ Main Content 
+code{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.doc-thing{
+    padding-top: 50px;
+}
+.doc-thing h3{
+    font-style: italic;
+}
