@@ -1,0 +1,26 @@
+/* Danial Firefox custom config */
+
+/*@ New tab icon  */
+.tab-icon-image:not([src]){
+  content: url("./img/dbot.png"); /* filename for icon to load */
+}
+.tab-icon-image[src="chrome://branding/content/icon32.png"]{
+  content: url("./img/dbot.png"); /* filename for icon to load */
+}
+
+/* @ New tab background image */
+@-moz-document url("about:newtab"), url("about:home"){
+  body{
+    /* This will load image.jpg stored in the same folder as this file */
+    background-image: url("./img/wallpaper.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: bottom;
+  }
+}
+
+.logo{
+  background-image: url("./img/dbot.png");
+}
