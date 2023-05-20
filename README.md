@@ -6,6 +6,9 @@ A simple customization to your firefox
 - custom wallpaper and wordmark for newtab 
 - more coming 
 
+### Example :
+![Alt text](screenshot/screenshot.png)
+
 ## Instalation :
 ### Windows :
 
