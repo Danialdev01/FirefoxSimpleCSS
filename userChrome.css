@@ -2,10 +2,10 @@
 
 /*@ New tab icon  */
 .tab-icon-image:not([src]){
-  content: url("./img/dbot.png"); /* filename for icon to load */
+  content: url("./img/logo.png"); /* filename for icon to load */
 }
 .tab-icon-image[src="chrome://branding/content/icon32.png"]{
-  content: url("./img/dbot.png"); /* filename for icon to load */
+  content: url("./img/logo.png"); /* filename for icon to load */
 }
 
 /* @ New tab background image */
